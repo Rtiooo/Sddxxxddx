@@ -1,0 +1,40 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  text-align:center;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  canvas {
+    display: block;
+    background-color:#ccc;
+    text-align:center;
+    margin: 0 auto;
+  }
+  
+  .btn{
+    background: #3A1772;
+    position:fixed;
+    top:16px;
+    padding:12px;
+    margin-left:266px;
+    width:auto;
+    padding-left:24px;
+    padding-right:24px;
+    color:#fff;
+    text-transform:uppercase;
+  }
+  
+  #winner{
+    position:fixed;
+    top:16px;
+    padding:12px;
+    padding-left:24px;
+    padding-right:24px;
+    font-size:4rem;
+    font-weight:bold;
+  }
+  
+}
